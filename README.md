@@ -41,10 +41,10 @@ A Spring Boot RESTful API to **generate**, **validate**, and **manage** Nigerian
 ### Build and Run
 
 ```bash
-git clone https://github.com/your-username/nuban-api.git
-cd nuban-api
+git clone https://github.com/nellysoma/Nuban-Generator.git
+cd Nuban-Generator
 mvn clean package
-java -jar target/nuban-api-0.0.1-SNAPSHOT.jar
+java -jar target/nubangenerator-0.0.1-SNAPSHOT.jar
 ```
 App will start at: http://localhost:8080
 
@@ -118,3 +118,10 @@ Now, multiply each digit in the combined string by its corresponding weight:
 - 8×7 = 56
 - 9×3 = 27
 ### Step 2: Add the Results
+0 + 7 + 3 + 3 + 14 + 9 + 12 + 35 + 18 + 21 + 56 + 27 = 235
+### Step 3: Modulus 10
+Now, take the total (235) and calculate:
+### Final NUBAN
+- Account serial: 123456789
+- Check digit: 5
+- Final NUBAN: 1234567895
