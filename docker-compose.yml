@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nuban-api:
+    build: .
+    container_name: nuban-api
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:h2:mem:nuban
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.h2.Driver
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
