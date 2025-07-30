@@ -40,7 +40,7 @@ A Spring Boot RESTful API to **generate**, **validate**, and **manage** Nigerian
 
 ### Build and Run
 
-```bash
+
 git clone https://github.com/your-username/nuban-api.git
 cd nuban-api
 mvn clean package
