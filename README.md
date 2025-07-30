@@ -40,12 +40,12 @@ A Spring Boot RESTful API to **generate**, **validate**, and **manage** Nigerian
 
 ### Build and Run
 
-
+```bash
 git clone https://github.com/your-username/nuban-api.git
 cd nuban-api
 mvn clean package
 java -jar target/nuban-api-0.0.1-SNAPSHOT.jar
-
+```
 App will start at: http://localhost:8080
 
 # Run with Docker
